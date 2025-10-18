@@ -10,8 +10,8 @@ terraform {
 
 provider "aws" {
     region = "us-east-1"
-    access_key = "123456"
-    secret_key = "123456"
+    access_key = "abc123" # relpace with correct
+    secret_key = "abcdefg" # replace with correct
 }
 
 # create a vpc (virtual privet network)

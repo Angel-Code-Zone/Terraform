@@ -10,8 +10,8 @@ terraform {
 
 provider "aws" {
     region = "us-east-1"
-    access_key = "12345"
-    secret_key = "12345"
+    access_key = "abc123" # relpace with correct
+    secret_key = "abcdefg" # replace with correct
 }
 
 # key pair (login)

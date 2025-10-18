@@ -10,7 +10,7 @@ terraform {
 
 proviver "aws" {
     region = "us-east-1"
-    access_key = "abc" # relpace with correct
+    access_key = "abc123" # relpace with correct
     secret_key = "abcdefg" # replace with correct
 }
 
