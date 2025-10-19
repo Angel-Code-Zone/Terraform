@@ -18,6 +18,13 @@ roviver "aws" {
 resource "aws_instance" "my_ec2" {
     ami = "abc12345" # replace with correct ami.
     instance_type = "t2.micro"
+    user_data = file("install_nginx.sh")
+
+    # Specify root volume volume
+    root_block_device {
+        volume_size = 15
+        volume_type = "gp3"
+    }
 
     tags = {
         Name = "ec2_machine"
